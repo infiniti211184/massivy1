@@ -28,7 +28,7 @@
         }
         System.out.prinln();
         for (int i = 0; i < array3.length; i++){
-            System.out.println(array1[i]);
+            System.out.println(array3[i]);
             if(i!=array3.length-1) {
                 System.out.println(", ");
             }
@@ -58,3 +58,5 @@
             }
             }
             }
+
+
