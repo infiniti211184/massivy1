@@ -43,7 +43,7 @@
             }
         }
         System.out.println();
-        fof (int i = array2.length-1; i >= 0; i++) {
+        for (int i = array2.length-1; i >= 0; i++) {
             System.out.print(array2[i]);
         }
             // Задание 4.
