@@ -7,7 +7,6 @@ public class Main {
         }
         return arr;
     }
-
     // Задание 1
     public static void main(String[] args) {
         int[] arr = generateRandomArray();
@@ -17,7 +16,6 @@ public class Main {
         }
         System.out.println("Сумма трат за месяц составила " + arrSum + " рублей");
         System.out.println();
-
 
         // Задание 2
 
