@@ -1,58 +1,51 @@
 public class Main {
-    public static int[] generateRandomArray() {
-        java.util.Random random = new java.util.Random();
-        int[] arr = new int[30];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = random.nextInt(100_000) + 100_000;
-        }
-        return arr;
-    }
-    // Задание 1
     public static void main(String[] args) {
-        int[] arr = generateRandomArray();
-        int arrSum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            arrSum += arr[i];
-        }
-        System.out.println("Сумма трат за месяц составила " + arrSum + " рублей");
+        //адание 1.
+        int[] array1 = new int[3];
+        array1[0] = 1;
+        array1[1] = 2;
+        array1[2] = 3;
+        for (int i = 0; i < array1.length; i++) ;
+
+        double[] array2 = {1.57, 7.654, 9.986};
+        boolean[] array3 = {true, false};
         System.out.println();
-
-        // Задание 2
-
-        var salaries = generateRandomArray();
-
-        int arrMin = salaries[0];
-        int arrMax = salaries[0];
-        for (int i = 0; i < salaries.length; i++) {
-            if (arrMax < salaries[i]) {
-                arrMax = salaries[i];
-            }
-            if (arrMin > salaries[i]) {
-                arrMin = salaries[i];
-            }
-        }
-        System.out.println("Максимальная сумма трат за день " + arrMax + "рублей");
-        System.out.println("Минимальная сумма трат за день " + arrMin + "рублей");
-        System.out.println();
-
-        // Задание 3
-
-        System.out.println("В среднем компания тратит в день " + arrSum / 30.0f);
-        System.out.println();
-
-
-        // Задание 4
-
-        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int a = reverseFullName.length - 1; a >= 0; a--) {
-            System.out.print(reverseFullName[a]);
-
-        }
     }
 }
+// Задание 2.
+        for (int i = 0; i < array1.length; i++){
+        System.out.println(array1[i]);
+        if(i!=array1.length-1) {
+        System.out.println(", ");
+        }
+        }
+        System.out.prinln();
+        for (int i = 0; i < array2.length; i++){
+        System.out.println(array1[i]);
+        if(i!=array2.length-1) {
+        System.out.println(", ");
+        }
+        }
+        System.out.prinln();
+        for (int i = 0; i < array3.length; i++){
+        System.out.println(array1[i]);
+        if(i!=array3.length-1) {
+        System.out.println(", ");
+        }
+        }
 
 
-
+        //задание 3.
+        for (int i = array1.length-1; i >=0; i++) {
+        System.out.print(array1[i]);
+        if (i != 0) {
+        System.out.println(", ");
+        }
+        }
+        System.out.println();
+        fof (int i = array2.length-1; i >= 0; i++) {
+        System.out.print(array2[i]);
+        }
 
 
 
