@@ -48,9 +48,21 @@ public class Main {
         System.out.print(array2[i]);
         }
         }
+        //задание 4.
+// Задание 4.
+        for (int i = 0; i < array1.lenght; i++){
+        if(array1[i]%2==1){
+        array[i]++;  //  программировании четн/нечет при делении на 2 ==1
+        }
+        System.out.print(array1[i]);
+        if(i!=array1.length-1){
+        System.out.print(", ");
+        }
+        }
+        }
         }
 
 
 
 
-        
+
